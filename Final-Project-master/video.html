@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Video Projects</title>
+        <!-- 
+         Video content page
+         filename: video.html
+         
+         Author: Braxton Rose
+        -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css?family=Spartan&AMP;display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="otherstyles.css">
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <h1 id="top-page">Video Projects</h1>
+            </header>
+            <nav class="sitenavigation">
+               <div id="top-group">
+                  <h2>General</h2>
+                  <p><a href="home.html">Home</a></p>
+                  <p><a href="contact.html">Contact</a></p>
+                  <p><a href="bio.html">Bio</a></p>
+               </div>
+               <div id="bottom-group">
+                  <h2>Projects</h2>
+                  <p><a href="video.html">Videography</a></p>
+                  <p><a href="photo.html">Photography</a></p>
+                  <p><a href="https://github.com/" target="_blank">Web Design</a></p>
+               </div>
+            </nav>
+            <div class="main_video">
+                <iframe id="viewable" width="640" height="360" src="https://www.youtube.com/embed/GPRo_PT1CSg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="videoLinks">
+                <button onclick="projectOne()">Project 1</button>
+                <button onclick="projectTwo()">Project 2</button>
+                <button onclick="projectThree()">Project 3</button>
+                <button onclick="projectFour()">Project 4</button>
+            </div>
+        </div>
+        <script>
+          var shownVideo = document.querySelector("#viewable");
+
+          function projectOne() {
+            shownVideo.setAttribute("src", "https://www.youtube.com/embed/GPRo_PT1CSg");
+          }
+
+          function projectTwo() {
+            shownVideo.setAttribute("src", "https://www.youtube.com/embed/fodZL7pGUbE");
+          }
+
+          function projectThree() {
+            shownVideo.setAttribute("src", "https://www.youtube.com/embed/mXL4op5tS9U");
+          }
+
+          function projectFour() {
+            shownVideo.setAttribute("src", "https://www.youtube.com/embed/VCi07Enzdzg");
+          }
+        </script>
+    </body>
+</html>

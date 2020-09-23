@@ -1,0 +1,64 @@
+/*
+ Final Project Style Sheet
+ Filename: Styles.css
+
+ Author: Braxton Rose
+*/
+
+/* reset styles */
+html {
+    font-size: 17px;
+}
+body, div, header, nav, p {
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+ /* header */
+header {
+    text-align: center;
+    margin-top: 0;
+    font-size: 20px;
+}
+header h3 {
+    margin-top: 0;
+    color: gainsboro;
+}
+header h1 {
+    margin-bottom: 0;
+    font-size: 60px;
+    color: black;
+}
+
+/* site navigation */
+nav.sitenavigation div#left-group {
+text-align: center;
+}
+nav.sitenavigation div#right-group {
+    text-align: center;
+}
+nav.sitenavigation p {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 0.2em;
+    font-size: 20px;
+    color: gainsboro;
+    margin-top: -2px;
+}
+nav.sitenavigation a:link {
+    text-decoration: none;
+    color: gainsboro;
+}
+nav.sitenavigation a:visited {
+    color: gainsboro;
+}
+nav.sitenavigation h2 {
+    font-size: 30px;
+}
+
+/* body */
+body {
+    height: 800px;
+    background-image: linear-gradient(145deg, white, black);
+}
